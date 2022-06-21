@@ -80,7 +80,7 @@ WSGI_APPLICATION = 'guitar.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql',
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
         'NAME': 'db767pcm5hocj0',
         'USER': 'mectommwntxumo',
         'PASSWORD': '9d828e9ec7ebe2298d82ee45824ab8982497f019078268875c6bc4fa3cb898c0',
