@@ -80,10 +80,15 @@ WSGI_APPLICATION = 'guitar.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'db767pcm5hocj0',
+        'USER': 'mectommwntxumo',
+        'PASSWORD': '9d828e9ec7ebe2298d82ee45824ab8982497f019078268875c6bc4fa3cb898c0',
+        'HOST': 'ec2-34-230-153-41.compute-1.amazonaws.com',
+        'PORT': '5432',
     }
 }
+
 
 
 # Password validation
